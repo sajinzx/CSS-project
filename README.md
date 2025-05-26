@@ -14,7 +14,6 @@ A clean and responsive static website showcasing major tech entrepreneurs, their
 
 - [About the Project](#-about-the-project)
 - [Features](#-features)
-- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [How to Use](#-how-to-use)
 - [Folder Structure](#-folder-structure)
@@ -59,3 +58,25 @@ A clean and responsive static website showcasing major tech entrepreneurs, their
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/sajinjr/the-owners-desk.git
+
+## 📂 Folder Structure
+/the-owners-desk
+├── index.html
+├── project1.html
+├── style.css
+├── faviconking.png
+├── elonmusk.jpg
+├── bill gates.jpg
+├── ambani.jpg
+├── bezos.jpg
+├── markzuckerberg.jpg
+└── README.md
+## 🔧 Area to Improve
+-Add animations or transitions for smoother user experience
+-Implement a contact or feedback form using JavaScript
+-Make the design dynamic with JS or React for future enhancements
+-Optimize images for better loading performance
+-Improve accessibility (alt texts, ARIA labels, contrast)
+-Add a dark mode toggle for modern UI preference
+-Integrate version control tags for release management
+
