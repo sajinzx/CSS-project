@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background-image: radial-gradient( circle farthest-corner at 6.3% 21.8%,  rgba(236,6,117,1) 0%, rgba(13,32,67,1) 90% );    width: 100vw;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.navcontainer{
+    width: 100vw;
+    height: 10vh;
+    background-image: linear-gradient(90deg, #8A2387 0%, #E94057 50%,#F27121 100%);
+    /* border:2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navlist{
+    width:100%;
+    padding: 12px;
+    margin-left: 25px;
+    margin-right: 15px;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+#navlogo{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight: 200;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+#navlinks{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    color: white;
+    background-image: linear-gradient( 90.1deg,  rgba(122,0,0,1) 8.1%, rgba(217,42,42,1) 74.4% );
+    width:100%;
+    height: 50px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+} 
+.item{
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+    background-image: linear-gradient( 106.1deg,  rgba(255,129,86,1) 2.2%, rgba(223,69,132,1) 38.7%, rgba(67,37,129,1) 90.2% );
+
+}
+
+.item:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in 0s;
+}
+.contentbox img{
+    height: 200px;
+    width:300px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+.img:hover{
+    transform: scale(1.2);
+    transition: all 0.25s linear 0s;
+}
+ .contentbox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    /* border: 2px solid black; */
+    padding: 20px;
+    padding-right: 40px;
+    background-image: linear-gradient( 106.1deg,  rgba(255,129,86,1) 2.2%, rgba(223,69,132,1) 38.7%, rgba(67,37,129,1) 90.2% );
+    box-shadow: 0px 0px 30px black;
+}
+#logoimg{
+    height: 50px;
+    width:50px;
+}
+
