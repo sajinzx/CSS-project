@@ -1,6 +1,8 @@
 # 📌 The Owner's Desk
 
-A clean and responsive static website showcasing major tech entrepreneurs, their companies, and their futuristic visions.
+The Owner's Desk is a simple and visually engaging website that offers a quick look into the lives and achievements of some of the world’s most influential tech entrepreneurs.
+
+The goal was to build something informative yet minimal using just HTML and CSS. Each section includes their major companies, a brief bio, net worth, future goals, and core motives—all organized in a clean and scroll-friendly layout. It’s designed to be easy to explore and visually appealing, especially for anyone curious about the people shaping modern technology and business.
 
 ---
 
